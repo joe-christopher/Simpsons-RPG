@@ -1,0 +1,20 @@
+body {
+	background: url(../images/sky.jpg);
+	font-family: 'Groening Plain', arial;
+}
+
+#Mainlogo {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 50%;
+}
+
+.gameDir{
+	text-align: center;
+}
+
+#SelectPlayer{
+	height: 200px;
+
+}
