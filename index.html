@@ -17,10 +17,12 @@
 <body>
 	<header>
             <img src = "assets/images/logo.png">
-	</header>
-	<section class="container character">
+    </header>
+    
+    <!-- setting up the characters to choose from -->
+	<section class="containerCharacter">
 		
-		<h2>Select your favorite character and destroy all the rest!</h2>
+		<h2 class="playerInstructions">Select your favorite character and destroy all the rest!</h2>
 		<div id="chars">
 			<div class="imgbox choice" data-gg-type="bart">
 				<p>Bart Simpson</p>
@@ -43,14 +45,18 @@
 				<span id="nelson">HP</span>
 			</div>
 		</div>
-	</section>
-	<section class="container enemy">
-		<h3>Your list of enemies to defeat, choose your victim...</h3>
+    </section>
+    <!-- Enemies to choose from -->
+	<section class="containerEnemy">
+		<h2 class="enemyInstructions">Your list of enemies to defeat, choose your victim...</h2>
 		<div id="enemies">
 		</div>
-	</section>
-	<section class="container arena">
-		<h3>The Battle Area</h3>
+    </section>
+    <br><br>
+    <!-- battle area -->
+	<section class="containerArena">
+        <h3 class="battleArena">The Battle Area</h3>
+        <br><br>
 		<div id="outside">
 		<div id="battle">	
 		</div>
@@ -60,9 +66,11 @@
 		<div id="battleTwo">
 		</div>
 		<p id="stat"></p>
-		</div>
+        </div>
+    </section>
+    <section class="buttonContainer">
 		<button type="button" class="btn btn-danger attack">Attack</button>
-		<button type = "button" class="btn btn-primary reset">Play Again</button>
+		<button type="button" class="btn btn-primary reset">Play Again</button>
 	</section>
 
 

@@ -25,7 +25,8 @@ h3, h1, h2 {
 .imgbox {
 	background: pink;
 	text-align: center;
-	width: 200px;
+	width: 195px;
+	height: 340px;
 	border: 2px ridge blue;
 	margin: 0 20px;
 }
@@ -42,11 +43,15 @@ h3, h1, h2 {
 #chars, #enemies, #outside {
 	display: inline-flex;
 	width: 100%;
-	margin: 0 auto;
+	margin: 25px;
+	margin-left: 350px;
 }
 
-.reset {
-	visibility: hidden;
+#outside {
+	display: inline-flex;
+	width: 100%;
+	margin: 25px;
+	margin-left: 560px;
 }
 
 #vs {
@@ -55,10 +60,11 @@ h3, h1, h2 {
 	margin: 75px 5px 0 5px;
 }
 
-.character, .enemy, .arena {
-	background-color: rgba(255, 255, 255, 0.7);
-}
 
 .btn {
 	margin: 15px;
+}
+
+.buttonContainer{
+	margin-left: 700px;
 }
